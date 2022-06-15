@@ -15,6 +15,7 @@ const counterSlice = createSlice({
     },
   },
 });
+//git commit
 export const actions = counterSlice.actions;
 const store = configureStore({
   reducer: counterSlice.reducer,
